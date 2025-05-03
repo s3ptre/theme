@@ -1,0 +1,81 @@
+@import url("https://raw.githubusercontent.com/s3ptre/discordtheme/refs/heads/main/2");
+@import url("https://raw.githubusercontent.com/s3ptre/discordtheme/refs/heads/main/test");
+@import url("https://raw.githubusercontent.com/s3ptre/discordtheme/refs/heads/main/Ididnotskidthis");
+
+:root {
+
+  --main-color: #3c7eca;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+
+  --background-shading-percent: 100%;
+  --background-image: url(https://media.discordapp.net/attachments/1274003471573585982/1274049002702245980/nissan_skyline_gt_r_r34_v_spec_ii_nur__gt6__by_vertualissimo_d7klhym.png?ex=68164a98&is=6814f918&hm=e6a746d8b599d6e4429955ae8ae957b205d643dcbf59e20c8a273e0891755d1c&=&format=webp&quality=lossless&width=1554&height=874);
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --background-image2: url(https://media.discordapp.net/attachments/1272587231399379036/1368074106343264387/ea770de2f76fdaad0851a2d4dadd10e1-ezgif.com-video-to-webp-converter.webp?ex=6816e5cc&is=6815944c&hm=d41c4ec55f41de7f8f430d5afd63ad6aa90db8c227c00912fe1cf7568735a65a&=&animated=true);
+
+  --user-popout-image: var(--background-image);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
+
+  --user-modal-image: var(--background-image2);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+
+  --home-icon: url(hhttps://media.discordapp.net/attachments/1165323705333850194/1362459203989672280/Screenshot_2025-04-17_165743.gif?ex=6816e7c3&is=68159643&hm=5ee22986fa44a5f825edd4745bc894ce8d064db923686de15bf3ebe9ef1e61a7&=);
+
+  --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --card-shading: rgba(252, 252, 252, 0.212);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* ASH THEME */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.2);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* DARK THEME */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* ONYX THEME */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+} /* END* /
